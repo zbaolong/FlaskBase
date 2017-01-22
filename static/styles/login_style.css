@@ -1,0 +1,21 @@
+*{
+    font-family: "微软雅黑";
+}
+.title1{
+    font-size: 3em;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.form1{
+
+}
+#VaildName, #VaildPsw {
+    color: red;
+    font-size: 12px;
+}
+
+.info_message{
+    padding-top: 1em;
+    color: gray;
+}

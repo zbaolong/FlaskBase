@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>登录成功跳转页</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../static/styles/success_style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">登录成功！！欢迎 <span style="color: red">{{ username }}</span></div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 text1">FROM：{{ info['user_agent'] }}</div>
+        <div class="col-sm-12 text1">IP：{{ info['ip'] }}</div>
+    </div>
+</div>
+</body>
+</html>
